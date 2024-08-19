@@ -12,7 +12,7 @@ class LoginPage extends Component {
 
     const {username, password} = this.state
     const userDetails = {username, password}
-    const loginApi = ' https://apis.ccbp.in/login'
+    const loginApi = 'https://apis.ccbp.in/login'
 
     const options = {
       method: 'POST',
